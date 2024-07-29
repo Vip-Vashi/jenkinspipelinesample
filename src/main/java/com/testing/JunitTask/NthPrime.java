@@ -1,6 +1,14 @@
-package com.testing.JunitTask;
+package com.testing.junittask;
 
 public class NthPrime {
+	
+	
+	
+private NthPrime() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
 public static int nthPrime(int n) {
 	
 	int c=0;

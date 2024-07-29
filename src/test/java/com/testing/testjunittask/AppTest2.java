@@ -1,10 +1,12 @@
-package com.testing.JunitTask;
+package com.testing.testjunittask;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
 
-class AppTest2 {
+import com.testing.junittask.App;
+
+class AppTest {
 
 	@Test
 	void testSumOfdigits() {

@@ -1,9 +1,15 @@
-package com.testing.JunitTask;
+package com.testing.junittask;
 
 
 public class App 
 {
-    public static int sumOfdigits(int n )
+	
+    private App() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	public static int sumOfdigits(int n )
     { 
     	int sum=0;
         while(n!=0) {

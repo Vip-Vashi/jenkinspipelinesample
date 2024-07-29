@@ -1,12 +1,19 @@
-package com.testing.JunitTask;
+package com.testing.junittask;
 
 public class IncOrd {
-public static boolean  IncreasingOrder(int n) {
+	
+	
+private IncOrd() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+public static boolean  increasingOrder(int n) {
 	
 	boolean flag=false;
 	String str = "";
 	str+=n;
-	char arr[]=str.toCharArray();
+	char[] arr=str.toCharArray();
 	for(int i=0;i<arr.length-1;i++) {
 		if(arr[i+1]>arr[i]) {
 			flag=true;

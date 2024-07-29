@@ -1,8 +1,10 @@
-package com.testing.JunitTask;
+package com.testing.testjunittask;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
+
+import com.testing.junittask.Fib;
 
 class FibTest {
 

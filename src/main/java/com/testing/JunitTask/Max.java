@@ -1,7 +1,14 @@
-package com.testing.JunitTask;
+package com.testing.junittask;
 
 public class Max {
-public static int MaxOfDigits(int n) {
+	
+	
+private Max() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+public static int maxOfDigits(int n) {
 	int max=0;
 	
 	while(n!=0) {

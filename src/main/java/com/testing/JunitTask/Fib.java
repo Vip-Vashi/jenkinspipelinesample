@@ -1,6 +1,13 @@
-package com.testing.JunitTask;
+package com.testing.junittask;
 
 public class Fib {
+	
+	
+private Fib() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
 public static int fibo(int n) {
 	int a =0;
 	int b=1;
