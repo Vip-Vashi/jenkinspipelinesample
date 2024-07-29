@@ -8,7 +8,7 @@ class IncOrdTest {
 
 	@Test
 	void testIncreasingOrder() {
-		assertTrue(IncOrd.increasingOrder(12346));;
+		assertTrue(IncOrd.increasingOrder(12346));
 	}
 
 }
