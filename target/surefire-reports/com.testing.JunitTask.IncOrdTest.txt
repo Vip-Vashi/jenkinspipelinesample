@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
-Test set: com.testing.JunitTask.IncOrdTest
+Test set: com.testing.junittask.IncOrdTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.009 s -- in com.testing.JunitTask.IncOrdTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.010 s -- in com.testing.junittask.IncOrdTest
