@@ -4,11 +4,11 @@ import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
 
-class NthPrimeTest {
+class AppTest {
 
 	@Test
-	void testNthPrime() {
-		assertEquals(3, NthPrime.nthPrime(2));
+	void testSumOfdigits() {
+		assertEquals(10, App.sumOfdigits(1234));
 	}
 
 }
